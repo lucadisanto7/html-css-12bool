@@ -13,14 +13,32 @@
 .col-2{
     flex-basis: calc((100% / 12) * 2 - 2px);
 }
+.col-3{
+    flex-basis: calc((100% / 12) * 3 - 2px);
+}
+.col-4{
+    flex-basis: calc((100% / 12) * 4 - 2px);
+}
 .col-5{
     flex-basis: calc((100% / 12) * 5 - 2px);
 }
 .col-6{
     flex-basis: calc((100% / 12) * 6 - 2px);
 }
+.col-7{
+    flex-basis: calc((100% / 12) * 7 - 2px);
+}
 .col-8{
     flex-basis: calc((100% / 12) * 8 - 2px);
+}
+.col-9{
+    flex-basis: calc((100% / 12) * 9 - 2px);
+}
+.col-10{
+    flex-basis: calc((100% / 12) * 10 - 2px);
+}
+.col-11{
+    flex-basis: calc((100% / 12) * 11 - 2px);
 }
 .col-12{
     flex-basis: calc(100% - 2px) 
@@ -31,11 +49,14 @@
 .content{
     background-color: #016dfa;
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .green-bg{
     background-color: rgb(83, 236, 83);
+}
+.mg-top{
+    margin-top: 40px;
 }
